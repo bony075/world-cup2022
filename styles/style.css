@@ -1,3 +1,7 @@
+/* :root{
+    --primary-font-color: white;
+
+} */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +14,79 @@
     text-align: center;
 } */
 
+/* 
+.container {
+    background-color: red; 
+    height: 100vh;
+     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* banner */
+.container {
+    margin-top: 50px;
+    background-color: #161616;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.banner-details {
+    width: 35%;
+    /* height: 424px; */
+    padding: 10px 25px;
+}
+
+.banner-info>h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #ffff;
+}
+
+.banner-info>p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.live-btn {
+    display: flex;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 35%;
+    margin-top: 30px;
+}
+
+.live-btn>a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* .live-btn{
+    font-weight: 400;
+        font-size: 20px;
+        color: #ffff;
+
+} */
+
+.banner-img {
+    width: 581px;
+    height: 613px;
+}
 
 /* footer section  */
 footer {
