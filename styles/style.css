@@ -1,3 +1,42 @@
-body {
-    background: rgb(210, 40, 40);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+
+    width: 100%;
+    text-align: center;
+} */
+
+
+/* footer section  */
+footer {
+    text-align: center;
+    padding: 160px 44px;
+    background-color: #161616;
+}
+
+footer>h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+footer>hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer>div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+footer>div>a {
+    text-decoration: none;
+    color: #B9B9B9;
 }
