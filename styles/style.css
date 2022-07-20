@@ -116,9 +116,11 @@ main {
 
 } */
 
-.banner-img {
+.banner-img>img {
     width: 581px;
-    height: 613px;
+    height: 622px;
+    margin-bottom: -4px;
+
 
 }
 
