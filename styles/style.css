@@ -49,8 +49,9 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #161616;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 80px;
+    
 
 }
 
@@ -423,6 +424,10 @@ footer>div>a {
 
     }
 
+    footer>div>a {
+        font-size: 14px;
+    }
+
     .social-link {
         display: flex;
         flex-direction: row;
@@ -525,6 +530,10 @@ footer>div>a {
     footer>div {
         flex-direction: column;
 
+    }
+
+    footer>div>a {
+        font-size: 12px;
     }
 
     .social-link {
