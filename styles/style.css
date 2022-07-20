@@ -256,7 +256,9 @@ main {
     grid-row-gap: 10px;
 }
 
-
+.view-all {
+    visibility: hidden;
+}
 
 
 
@@ -295,6 +297,137 @@ footer>div>a {
     margin-top: 35px;
     text-decoration: none;
     color: #ffff;
+
+}
+
+/* responsive design using media query for tablet */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .banner-details {
+        margin-top: 70px;
+
+        margin-left: 60px;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    .banner-info>h1 {
+
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .banner-info>p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .live-btn {
+        width: 180px;
+        height: 48px;
+    }
+
+    .banner-img>img {
+        margin-top: 12%;
+        height: 91%;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+    }
+
+    /* blog  */
+    .blog-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-menu {
+        margin-top: -40px;
+        margin-bottom: -40px;
+        width: 100%;
+        background-color: white;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+
+
+    }
+
+    .side-menu>a {
+        font-size: 16px;
+        padding: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid #E8E8E8;
+
+    }
+
+    .blogs,
+    .Matches {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .blog:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .view-all {
+        visibility: visible;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .view-all>a {
+
+        text-decoration: none;
+        padding: 10px 30px;
+        color: white;
+        background-color: #DD0000;
+        border-radius: 5px;
+    }
+
+    /* footer section  */
+    footer {
+
+        margin-top: 25px;
+        padding: 24px 130px;
+    }
+
+    footer>h1 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    footer>hr {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    footer>div {
+        /* flex-direction: column; */
+        flex-flow: row wrap;
+
+    }
+
+    .social-link {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+    }
 
 }
 
@@ -366,6 +499,10 @@ footer>div>a {
     .blogs,
     .Matches {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .view-all {
+        visibility: hidden;
     }
 
     /* footer section  */
